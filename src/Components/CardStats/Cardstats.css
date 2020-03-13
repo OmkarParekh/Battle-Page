@@ -1,0 +1,60 @@
+
+.headertitle{
+    margin-left: 100px;
+}
+.header-icon{
+    width: 50px;
+    height: auto;
+}
+.title-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AE9134;
+    cursor: pointer;
+    margin: auto 10px;
+}
+.headertitle{
+    margin-left: 100px;
+    flex-grow: 4;
+}
+.cardCategory{
+    flex-grow: 1;
+    top: 10px;
+}
+.category-text{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(5, 71, 255, 0.788);
+    cursor: pointer;
+    padding: 10px 40px;
+    border: 1px solid rgb(75, 65, 65);
+    border-radius: 10px;
+
+}
+
+.divider{
+    width: auto;
+    height: 5px;
+    color: black;
+}
+.cardData{
+    flex-wrap: wrap;
+    margin: 20px 50px;
+    
+}
+.deck-info{
+    margin: 30px auto;
+}
+.copy-text{
+    margin: 5px auto;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: fantasy;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}

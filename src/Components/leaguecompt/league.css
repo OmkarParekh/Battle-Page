@@ -1,0 +1,54 @@
+.badge-container{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFBFB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+.header-text{
+    margin-top: 9px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+}
+.outer-box{
+    margin-right: 30px;
+    width: 237px;
+height: 241px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.inner-box{
+    width: 217px;
+height: 150px;
+background: #FFFBFB;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-left: 10px;
+} 
+.inner-box img{
+   margin : 20px 85px;
+}
+.icon-s{
+    width: 40px;
+    height: 40px;
+    margin-left: 85px;
+}
+.small{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.text-monospace{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}

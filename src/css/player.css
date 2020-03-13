@@ -1,0 +1,223 @@
+.player-stats{
+    /* box-shadow: 0px 4px 12px #000000, 0px 4px 4px rgba(0, 0, 0, 0.25);  */
+    -webkit-box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    -moz-box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background: #F8F8F9;
+    border-radius: 20px;
+    margin: 35px auto;
+}
+.arena-info-img{
+   width: 35vh;
+   height: 37vh;
+}
+
+.arena-info-name{
+    font-family: monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 43px;
+color: #AE9134;
+position: relative;
+left: 75px;
+bottom: 15px;
+cursor: pointer;
+} 
+
+/* .arena-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.arena-info-name{
+    font-family: monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 43px;
+color: #AE9134;
+position: relative;
+left: 85px;
+bottom: 50px;
+cursor: pointer;
+} */
+/* .arena-info-name::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+      /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: -4px; 
+
+
+   /****** 
+   optional values below 
+   ******/
+    
+    /* center - (optional) use with adjusting width   */
+  /*  margin: 0 auto;
+      left: 0;
+    right: 0;
+      width: 50%;
+      background: green;
+      
+      /* optional animation 
+      -o-transition:.5s;
+        -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s; 
+} */
+.arena-info-name:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+      /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: -4px; 
+
+
+   /****** 
+   optional values below 
+   ******/
+    
+    /* center - (optional) use with adjusting width   */
+    margin: 0 auto;
+      left: -180px;
+    right: 0;
+      width: 200px;
+      background: green;
+      
+      /* optional animation */
+      -o-transition:.5s;
+        -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+ 
+
+ /* optional hover classes used with anmiation */
+  /* .arena-info-name:hover:after {
+      width: 80%;
+      background: orange;
+} */
+
+
+
+.player-data-cont{
+    border-left: 20px soild black;
+}
+.player-data-icon{
+    width: 8vh;
+}
+.player-data-name{
+    font-family: monospace;
+
+    font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+color: #FF7A7A;
+justify-content: center;
+cursor: pointer;
+}
+.player-data-tag{
+    position: relative;
+    top: -20px;
+    left: 65px;
+    cursor: pointer;
+}
+
+.player-option-items{
+    display: flex;
+    margin-left: 28px;
+    margin-bottom: 15px;
+}
+.item-name{
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+align-items: center;
+margin-right: 10px;
+width: 100px;
+cursor: pointer;
+}
+.item-divider{
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+align-items: center;
+margin-right: 10px;
+}
+.item-data{
+    display: flex;
+}
+.item-icon{
+    width: 35px;
+    height: 40px;
+    
+}
+.item-value{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 19px;
+    line-height: 29px;
+    margin-left: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.player-nav-option{
+    margin-top: 50px;
+}
+.nav-options{
+    display: flex;
+}
+.nav-option-item{
+    display: flex;
+    width: 500px;
+}
+.option-icon{
+    width: 45px;
+    height: 45px;
+
+}
+.option-name{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.option-name::after{
+    content: '';
+    width: auto;
+    height: 2px;
+    position: absolute;
+    background: rgba(141, 16, 16, 0.856);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 4px auto;
+
+    /* optional animation */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: 0.5s ease-in-out;
+}
+ /* optional hover classes used with anmiation  */
+   .option-name:hover:after {
+      width: 40%;
+      background: orange;
+}

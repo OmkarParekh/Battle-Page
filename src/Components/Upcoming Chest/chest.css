@@ -1,0 +1,58 @@
+.chest-holder{
+    -webkit-box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    -moz-box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    box-shadow: -1px 10px 15px 5px rgba(101,115,120,0.61);
+    border-radius: 10px;  
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.chest-data{
+    margin: 30px;
+}
+.chest-data{
+    width: 200px;
+    height: auto;
+}
+.chest-icon{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.chest-duration{    
+    position: relative;
+    top: -90px;
+    left: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 25px;
+    color: wheat;
+    font-family: monospace;
+    cursor: none;
+}
+.header-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AE9134;
+    cursor: pointer;
+}
+.chest-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AE9134;
+    cursor: pointer;
+    margin: auto 10px;
+}
+.chestdata{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    display: flex;
+}

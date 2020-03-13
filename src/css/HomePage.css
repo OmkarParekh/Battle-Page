@@ -1,0 +1,156 @@
+ /* @import 'https://fonts.googleapis.com/css?family=Bungee';
+  body
+  {
+    font-family: Bungee;
+  }
+
+.App{
+  background-image:url("../assest/img/background.jpg") ;
+  background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+  width:100%;
+}
+ 
+.home{
+  position: absolute;
+}
+/*
+.home_label1
+{margin-top: 5%;
+  margin-left: 10%;
+  font-size: 35px;
+  color:white;
+  display:block;
+
+}
+
+.home_label2
+{margin-top: 15%;
+  color:white;
+  margin-top: 10%;
+  margin-left: 20%;
+ width: 50%;
+ font-size: 25px;
+ display:block;
+}
+.home_select1{
+  width: 25%; 
+  padding: 5px 5px;
+  border: 1px solid  ;
+  margin-top:5%;
+  margin-left:20%;
+  border-radius:5px ;
+}
+.home_text1 {
+  width: 50%;
+  padding: 15px 5px;
+  border: 1px solid;
+  margin-top:5%;
+  margin-left:1%;
+  border-radius:5px;
+
+}
+.home_button1 {
+  width: 25%;
+  background-color: #FFB441 ; 
+  border: none;
+  color:black; 
+  border: 1px solid  ;
+  padding: 10px 5px;
+  border-radius:5px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left:20%;
+}
+.home_info{
+  position: absolute;
+  margin-left: 5%;
+ width: 90%; 
+}
+.home_label3
+{ margin-top: 5%;
+  font-size: 35px;
+  display:block;
+}
+.home_chest
+{
+  margin-top: 5%;
+  font-size: 20px;
+  text-align: left;
+
+}
+.home_tournament
+{ margin-top: 10%;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 5%;
+}
+.home_battle
+{ margin-top: 15%;
+  font-size: 20px;
+  text-align: left;
+  
+}
+.upcoming_chest
+{
+  text-align: left;
+}
+.tournament
+{
+  text-align: right;
+}
+.battle
+{
+  text-align: left;
+}
+img
+{
+  width:20%;
+  height:20%;
+  
+ 
+}
+.home_label4
+{font-size: 25px;
+  color: red;
+}
+.home_label5
+{font-size: 25px;
+  color: red;
+}
+.home_label6
+{font-size: 25px;
+  color: red;
+} */
+
+
+.main-conatiner{
+  background-image:url("../assest/img/background.jpg") ;
+  background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+   
+}
+.title-text{
+font-family: monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 43px;
+color: #AE9134;
+position: relative;
+left: 85px;
+bottom: 50px;
+cursor: pointer;
+}
+.description-container > span{
+  width: 200px;
+  font-family: monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 43px;
+color: rgb(112, 112, 112);
+cursor: pointer;
+}

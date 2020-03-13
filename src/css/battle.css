@@ -1,0 +1,342 @@
+.wrapper {
+  text-align: center;
+}
+.card {
+  position: relative;
+  height: 25rem;
+  width: 40.6rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(247, 231, 231, 0.37);
+}
+#Deck {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  width: 35%;
+  height: 55%;
+  margin-top: 4%;
+}
+#Deck1 {
+  position: absolute;
+  top: 40%;
+  left: 58%;
+  width: 35%;
+  height: 55%;
+  margin-top: 4%;
+  padding: 0 15px;
+}
+#ca {
+  width: 25%;
+}
+#ca1 {
+  width: 25%;
+}
+#player {
+  position: absolute;
+  top: -35%;
+  left: 7.5%;
+}
+#clann {
+  position: absolute;
+  top: -23%;
+  left: 8%;
+  margin-top: 1%;
+  font-size: 0.8rem;
+}
+#trp {
+  position: absolute;
+  top: -36%;
+  left: 65%;
+}
+.line1 {
+  position: absolute;
+  top: -36.5%;
+  left: 60%;
+  width: 1px;
+  height: 25%;
+  background-color: #282c34 !important;
+}
+#player1 {
+  position: absolute;
+  top: 27%;
+  left: 58%;
+}
+#trp1 {
+  position: absolute;
+  top: 26%;
+  left: 80%;
+}
+
+#clann1 {
+  position: absolute;
+  top: 34%;
+  left: 58%;
+  font-size: 0.8rem;
+}
+.line2 {
+  position: absolute;
+  top: -83%;
+  left: 77%;
+  width: 1px;
+  height: 13%;
+  background-color: #282c34 !important;
+}
+.line {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 1px;
+  height: 70%;
+  background-color: #282c34;
+}
+#cont1 {
+  margin-left: 12%;
+  margin-top: 2%;
+}
+#cont2 {
+  margin-left: 50%;
+  margin-top: -21%;
+}
+#cont3 {
+  margin-left: 12%;
+  margin-top: 2%;
+}
+#cont4 {
+  margin-left: 50%;
+  margin-top: -21%;
+}
+
+.btn {
+  margin-left: 65% !important;
+}
+#linkd{
+  margin-top: 30%;
+}
+#vord {
+  margin-left: -80%;
+  margin-top: -6.5%;
+}
+.fa-trophy {
+  color: #ffff00;
+  border: #282c34;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .card {
+    position: relative;
+    left: -9%;
+    width: 105%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(247, 231, 231, 0.37);
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
+  #ba {
+    width: 1rem;
+  }
+  .Avg-elixir,
+  .Avg-elixir1 {
+    font-size: 0.8rem;
+  }
+  #player,
+  #player1 {
+    font-size: 0.65rem;
+  }
+  #player {
+    position: absolute;
+    top: -30%;
+    left: 7.5%;
+  }
+  #player1 {
+    position: absolute;
+    top: 27%;
+    left: 57%;
+  }
+  #clann,
+  #clann1 {
+    font-size: 0.45rem;
+    margin-top: -3%;
+  }
+  #clann {
+    position: absolute;
+    top: -20%;
+    left: 8%;
+  }
+  #clann1 {
+    position: absolute;
+    top: 34%;
+    left: 57%;
+  }
+  #trp {
+    display: flex;
+    font-size: 0.65rem;
+    position: absolute;
+    top: -30.5%;
+    left: 60%;
+  }
+  #trp1 {
+    display: flex;
+    font-size: 0.65rem;
+    position: absolute;
+    top: 26.7%;
+    left: 79%;
+  }
+  #trp img,
+  #trp1 img {
+    width: 0.8rem;
+  }
+
+  #Deck {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 45%;
+    height: 55%;
+    margin-top: 4%;
+  }
+  #Deck1 {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    width: 45%;
+    height: 55%;
+    margin-top: 4%;
+  }
+  .line1 {
+    position: absolute;
+    top: -32%;
+    left: 55%;
+    width: 1px;
+    height: 16%;
+    background-color: #282c34;
+  }
+  .line2 {
+    position: absolute;
+    top: -77.6% !important;
+    left: 77%;
+    width: 1px;
+    height: 35px;
+    background-color: #282c34;
+  }
+  .line {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 1px;
+    height: 60%;
+    background-color: #282c34;
+  }
+  .btn {
+    width: 3rem;
+    margin-left: 65% !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+  #cont2 {
+    margin-left: 12%;
+    margin-top: 3%;
+  }
+  #cont3 {
+    margin-top: 3%;
+  }
+  #cont4 {
+    margin-left: 12%;
+    margin-top: 3%;
+  }
+  .line2 {
+    position: absolute;
+    top: 25%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .line2 {
+    position: absolute;
+    top: 25%;
+  }
+}
+
+/* 
+.card {
+  width: 90% !important;
+  height: 15rem;
+}
+.card-title {
+  font-size: 0.8rem;
+}
+#player1 {
+}
+#player,
+#player1 {
+  font-size: 0.5rem;
+}
+#clann,
+#clann1 {
+  font-size: 0.40625rem;
+}
+#score {
+  font-size: 0.625rem;
+}
+.line {
+  height: 8.75rem;
+  margin-top: -33%;
+}
+#trp,
+#trp1 {
+  font-size: 0.5rem;
+  margin-top: -13%;
+}
+#trp img,
+#trp1 img {
+  width: 0.75rem;
+}
+.Avg-elixir,
+.Avg-elixir1 {
+  font-size: 0.5rem;
+}
+.btn {
+  width: 2.5rem;
+  margin-top: -7%;
+}
+.line1,
+.line2 {
+  margin-top: -13%;
+  margin-bottom: 5%;
+  height: 1.5625rem;
+}
+#ca,
+#c {
+  width: 22%;
+}
+#Deck,
+#Deck1 {
+  width: 48%;
+  height: 25%;
+  margin-right: -1.5%;
+  margin-top: 7%;
+  display: flexbox;
+}
+
+#cont1,
+#cont2,
+#cont3,
+#cont4 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 8%;
+} */
